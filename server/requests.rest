@@ -1,7 +1,30 @@
-POST http://localhost:3000/signin 
+//eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ZGRjNzkyMTVjZDFjN2Q5Y2MwMzJkNCIsImlhdCI6MTcyNzU0NTkxM30.Sba-LG9FuJAGCY3NlQf2xs6tvRcOYVD_LWH70I2ezsM
+# POST http://localhost:3000/change-password
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ZGRjNzkyMTVjZDFjN2Q5Y2MwMzJkNCIsImlhdCI6MTcyNzUxNzEwMX0.cvI6CYMQntkxLrA_e7J0dYmrMf8V3MKU_ImAp2K0n_E
+
+# {
+#     "currentPassword":"Ashritha12",
+#     "newPassword":"Ashritha123"
+# }
+
+# POST http://localhost:3000/signin
+#  Content-Type: application/json
+
+#  {
+#     "email":"ashrithajavvaji02@gmail.com",
+#     "password":"Ashritha123"
+#  }
+//"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ZTY2ZjJhN2JkZDA0MWRmNGZiZDgyYyIsImlhdCI6MTcyNjM3Nzc3MH0.zHoHmDVYStTAetFpmtxRtfpJGJKd_bBPICX38FSOCU4"
+POST http://localhost:3000/user-written-blogs
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ZGRjNzkyMTVjZDFjN2Q5Y2MwMzJkNCIsImlhdCI6MTcyNzYyNTc3NX0.fxsw_hgdEFXiXcmLMmaCzU6NCJ16SRGwSMOWlQMqKBA
 Content-Type: application/json
 
 {
-    "email": "kunaa@gmail.com",
-    "password": "Kunaal"
+    "page":1,
+    "draft":true
 }
+# # GET http://localhost:3000/get-upload-url
+
+# GET http://localhost:3000/new-notification
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ZGRjNzkyMTVjZDFjN2Q5Y2MwMzJkNCIsImlhdCI6MTcyNzU0NTkxM30.Sba-LG9FuJAGCY3NlQf2xs6tvRcOYVD_LWH70I2ezsM
